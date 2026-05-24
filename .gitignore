@@ -210,3 +210,16 @@ __marimo__/
 .qml-env
 *.csv
 *.pdf
+!data/samarone_junior/figures/*.pdf
+!data/samarone_junior/results/stats_blocked.csv
+!data/samarone_junior/results/stats_blocked_holm.csv
+!data/samarone_junior/results_final/**/stats_blocked.remote-generated.csv
+!data/samarone_junior/results_final/**/stats_blocked_holm.remote-generated.csv
+
+# Local runtime state and data links
+.bg-shell/
+data/samarone_junior/3w
+
+# Regenerable local experiment outputs
+data/samarone_junior/results_smoke/
+data/samarone_junior/results_corrected/

@@ -1,0 +1,18 @@
+\begin{table}[h!]
+\centering
+\caption{Ranking dos modelos por F1 médio sobre $10 \times 5 \times 9 = 450$ observações por modelo, com intervalo de confiança \textit{bootstrap} em blocos (semente--fold) de 95\%.}
+\label{tab:ranking}
+\begin{tabular}{rlrrrr}
+\toprule
+\textbf{\#} & \textbf{Modelo} & \textbf{Parâmetros} & \textbf{F1} & \textbf{IC 95\%} & \textbf{AUC-ROC} \\
+\midrule
+1 & LSTMAutoencoder & $3029$ & $0,872$ & $[0,869;\, 0,876]$ & $0,989$ \\
+2 & FullAutoencoder & $3006$ & $0,856$ & $[0,851;\, 0,861]$ & $0,980$ \\
+3 & IsolationForestDetector & --- & $0,776$ & $[0,754;\, 0,797]$ & $0,945$ \\
+4 & OneClassSVMDetector & --- & $0,697$ & $[0,690;\, 0,704]$ & $0,752$ \\
+5 & QAEReconstruction & $48$ & $0,626$ & $[0,575;\, 0,675]$ & $0,905$ \\
+6 & \textbf{QAETrashFidelity} & $48$ & $0,603$ & $[0,550;\, 0,651]$ & $0,889$ \\
+7 & MatchedAutoencoder & $100$ & $0,493$ & $[0,441;\, 0,541]$ & $0,781$ \\
+\bottomrule
+\end{tabular}
+\end{table}

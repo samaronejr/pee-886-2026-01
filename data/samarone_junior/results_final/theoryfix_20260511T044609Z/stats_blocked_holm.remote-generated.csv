@@ -1,0 +1,13 @@
+comparison_family,comparison,baseline,statistic,p_value,n_pairs,n_blocks,mean_diff,blocking,metric,p_holm,holm_reject_0.05
+QAETrashFidelity,QAETrashFidelity vs. MatchedAutoencoder,MatchedAutoencoder,332.0,0.0027053239960554976,50,50,0.11063767007789871,seed_fold,f1_mean,0.005410647992110995,True
+QAETrashFidelity,QAETrashFidelity vs. OneClassSVMDetector,OneClassSVMDetector,315.0,0.0014846473444478647,50,50,-0.09374354714920631,seed_fold,f1_mean,0.004453942033343594,True
+QAETrashFidelity,QAETrashFidelity vs. IsolationForestDetector,IsolationForestDetector,96.0,6.3368066349767105e-09,50,50,-0.17292287426990022,seed_fold,f1_mean,2.5347226539906842e-08,True
+QAETrashFidelity,QAETrashFidelity vs. FullAutoencoder,FullAutoencoder,1.0,3.552713678800501e-15,50,50,-0.2528274551560086,seed_fold,f1_mean,1.7763568394002505e-14,True
+QAETrashFidelity,QAETrashFidelity vs. LSTMAutoencoder,LSTMAutoencoder,0.0,1.7763568394002505e-15,50,50,-0.26898033758188133,seed_fold,f1_mean,1.0658141036401503e-14,True
+QAETrashFidelity,QAETrashFidelity vs. QAEReconstruction,QAEReconstruction,502.0,0.19427670053532076,50,50,-0.023073487747197828,seed_fold,f1_mean,0.19427670053532076,False
+QAEReconstruction,QAEReconstruction vs. LSTMAutoencoder,LSTMAutoencoder,0.0,1.7763568394002505e-15,50,50,-0.24590684983468358,seed_fold,f1_mean,1.0658141036401503e-14,True
+QAEReconstruction,QAEReconstruction vs. FullAutoencoder,FullAutoencoder,4.0,1.2434497875801753e-14,50,50,-0.22975396740881077,seed_fold,f1_mean,6.217248937900877e-14,True
+QAEReconstruction,QAEReconstruction vs. IsolationForestDetector,IsolationForestDetector,159.0,7.239255257474042e-07,50,50,-0.14984938652270238,seed_fold,f1_mean,2.895702102989617e-06,True
+QAEReconstruction,QAEReconstruction vs. OneClassSVMDetector,OneClassSVMDetector,428.0,0.04294367729928261,50,50,-0.07067005940200848,seed_fold,f1_mean,0.08588735459856522,False
+QAEReconstruction,QAEReconstruction vs. QAETrashFidelity,QAETrashFidelity,502.0,0.19427670053532076,50,50,0.023073487747197828,seed_fold,f1_mean,0.19427670053532076,False
+QAEReconstruction,QAEReconstruction vs. MatchedAutoencoder,MatchedAutoencoder,303.0,0.0009504084140701252,50,50,0.13371115782509654,seed_fold,f1_mean,0.0028512252422103757,True
